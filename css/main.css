@@ -3,12 +3,20 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 header{
 	position: fixed;
 	width: 100%;
 	color:white;
 	z-index: 100;
 	}
+
+span {
+    font-family: 'Courgette', cursive;
+}
+em {
+    font-family: 'Open Sans', sans-serif;
+}
 .navbar-brand{
 	padding: 0;
 	height: inherit;
@@ -70,8 +78,76 @@ span{
     padding-bottom: 5%;
     margin-bottom: 10px;
 }
+p{
+    font-size: 17px;
+}
 .foto img{
 	width: 100%;
+}
+.foto2 {
+    margin-top: 20px;
+    background-color: #1C1821;
+    color: white;
+    text-align: center;
+    padding-bottom: 0%;
+    margin-bottom: 10px;
+}
+.img {
+    width: 100%;
+}
+.img-aside {
+    width: 100%;
+
+}
+.buscar {
+    background-color: #1C1821;
+    margin-top: 20px;
+}
+.form-search {
+    width: 320px;
+    color: white;
+    margin: 21px;
+    border: none;
+    background-color: #2D2735;
+    padding: 10px;
+}
+.amanda {
+    font-size: 24px;
+}
+.aboutme {
+    background-color: #1C1821;
+    color: white;
+    text-align: center;
+    
+}
+.text {
+    padding:  14px !important;
+    text-align: left;
+    font-size: 18px;
+}
+
+.red {
+    border-radius: 100%;
+    display: inline-block;
+    margin: 7px 5px 28px;
+    background-color: rgba(72, 63, 84, 0.9);
+    padding: 8px 10px;
+}
+.fa {
+    color: white;
+    font-size: 20px;
+}
+footer {
+    margin-bottom: 0 !important
+}
+.text-footer {
+    color: white;
+    text-align: center;
+    padding: 35px;
+    background-color: #1C1821;
+    border-color:#1C1821;
+    margin-top: 35px;
+    margin-bottom: 0px;
 }
 /* Responsive */
 
